@@ -1,0 +1,12 @@
+version: "3"
+services:
+  haskell:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - "./app:/app"
+    working_dir: "/app"
+    ports:
+      - "80:3000"
+    command: "cabal run"

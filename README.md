@@ -5,7 +5,10 @@ This repo is a starting point for new Haskell projects via Docker
 * `cabal sandbox init`
 * `cabal init`
 
-### Commands
+### Non-Interactive Commands
+* Start application `docker-compose up`
+
+### Interactive Commands
 * Start bash in haskell container: `docker run -it --rm -v $(pwd)/app:/app haskell:8 bash`
   * Once inside ^: `cd app`
   * Install Artifacts: `cabal install`

@@ -2,6 +2,7 @@
 This repo is a starting point for new Haskell projects via Docker.
 
 ### How We Got Here:
+* https://dev.to/parambirs/how-to-write-a-haskell-web-servicefrom-scratch---part-3-5en6
 * `cabal sandbox init`
 * `cabal init`
 
